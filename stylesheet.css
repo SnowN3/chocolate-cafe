@@ -1,12 +1,15 @@
+
+body {
+   background-color: #ffff99; /*attempt to eliminate white space*/
+}
+
 .container {
     background-color: #ffff99;
-
+    height: 900px;
 }
 
 .header {
-
-    font-family: serif;
-    height: 80px;
+    height: 60px;
     background-color: #ffff99;
     color: #994d00;
     margin-left: auto;
@@ -14,9 +17,11 @@
 }
 
 h1 {
+    font-family: 'Lobster Two', cursive, serif;
     text-align: center;
-    padding: 30px 10px 10px 10px;
-    font-size: 40px;
+    padding: 20px 10px 5px 10px;
+    font-size: 80px;
+    color: #4d2600;
 }
 
 .nav {
@@ -24,19 +29,17 @@ h1 {
     color: white;
     height: 50px;
     padding: 10px;
-
-    
+    margin: auto;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none; /*this property:value eliminates bullets*/
 }
 
 li {
     display: inline;
     font-size: 20px;
-    font-family: serif;
-    
+    font-family: 'Noto Serif', serif;
 }
 
 li a {
@@ -46,19 +49,130 @@ li a {
     margin-right: 80px;
     text-decoration: none;
 }
-
-div {
-    margin-left: 26px;
+    
+.active {
+    color: #cc7a00; /*makes user aware of which page they are viewing*/
 }
+
+.hpdesserts, .hpdesserts2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+
+.hpdesserts img, .hpdesserts2 img {
+    display: inline-block;
+    padding: 5px;
+}
+
 .footer {
     background-color: #4d2600;
     color: white;
     height: 50px;
-    padding: 10px;
+    clear: both;
 }
 
-img{
-  padding: 20px;  
-  margin-left: auto;
-  margin-right: auto;
+.footer p {
+    display: inline-block;
+    padding-left: 58px;
+    padding-top: 0px;
+    font-size: 16px;
+   font-family: 'Noto Serif', serif;
+}
+
+.footer img {
+    border-radius: 15px; /*rounds corners of image*/
+    height: 50px;
+    float: right;
+    padding-top: 0px;
+    padding-right: 640px;
+}
+
+.container2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff99;
+    position: relative;
+    margin: auto;
+}
+
+.menu_div {
+    position: absolute; /*creates overlap with image*/
+    top: 80px;
+    right: 0px;
+    bottom: 10px;
+    left: 75px;
+}
+
+.breakfast {
+    font-size: 28px;
+    font-family: cursive;
+    float: left;
+    margin-right: 40px;
+    width: 190px;
+    text-align: center;
+}
+
+.desserts {
+    float: left;
+    margin: auto;
+    width: 205px;
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.ice_cream {
+    float: left;
+    margin: auto;
+    width: 190px;
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.coffee {
+    float: left;
+    margin: auto;
+    width: 190px;
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.wine {
+    float: left;
+    margin: auto;
+    width: 190px;
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+}
+
+#wine_type { 
+    font-family: cursive;
+}
+
+#chocolate_menu {
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about_us {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.story {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    color: #4d2600;
+    margin-top: 80px;
 }
