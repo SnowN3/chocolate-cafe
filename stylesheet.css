@@ -68,24 +68,22 @@ li a {
 .footer {
     background-color: #4d2600;
     color: #FFFFFF;
-    height: 50px;
+    height: 60px;
     clear: both;
 }
 
 .footer p {
     display: inline-block;
     padding-left: 58px;
-    padding-top: 0px;
     font-size: 16px;
    font-family: 'Noto Serif', serif;
+   vertical-align: middle;
 }
 
 .footer img {
     border-radius: 15px; /*rounds corners of image*/
-    height: 50px;
-    float: right;
-    padding-top: 0px;
-    padding-right: 640px;
+    padding-left: 10px;
+    vertical-align: middle;
 }
 
 .container2 {
@@ -166,8 +164,8 @@ li a {
 .about_us {
     float: left;
     margin-top: 20px;
-    margin-bottom: 20px;
     padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .story {
